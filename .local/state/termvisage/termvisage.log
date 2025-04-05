@@ -1,0 +1,99 @@
+(30038) (2025-03-26 07:40:18,437) [INFO] termvisage: Starting a new session
+(30038) (2025-03-26 07:40:18,438) [INFO] termvisage: Logging level set to WARNING
+(30038) (2025-03-26 07:40:18,472) [ERROR] termvisage.cli: 'path/to/image.png' is invalid or does not exist
+(30038) (2025-03-26 07:40:18,484) [INFO] termvisage.cli: No valid source!
+(30038) (2025-03-26 07:40:18,495) [INFO] termvisage: Session ended with return-code 4 (NO_VALID_SOURCE)
+(30344) (2025-03-26 07:41:12,390) [INFO] termvisage: Starting a new session
+(30344) (2025-03-26 07:41:12,390) [INFO] termvisage: Logging level set to WARNING
+(30344) (2025-03-26 07:41:12,418) [ERROR] termvisage.cli: '/data/data/com.termux/files/home/.config/fastfetch/adroid..png' is invalid or does not exist
+(30344) (2025-03-26 07:41:12,430) [INFO] termvisage.cli: No valid source!
+(30344) (2025-03-26 07:41:12,440) [INFO] termvisage: Session ended with return-code 4 (NO_VALID_SOURCE)
+(30365) (2025-03-26 07:41:18,615) [INFO] termvisage: Starting a new session
+(30365) (2025-03-26 07:41:18,616) [INFO] termvisage: Logging level set to WARNING
+(30365) (2025-03-26 07:41:18,644) [ERROR] termvisage.cli: '/data/data/com.termux/files/home/.config/fastfetch/adroid.png' is invalid or does not exist
+(30365) (2025-03-26 07:41:18,656) [INFO] termvisage.cli: No valid source!
+(30365) (2025-03-26 07:41:18,666) [INFO] termvisage: Session ended with return-code 4 (NO_VALID_SOURCE)
+(30625) (2025-03-26 07:42:28,525) [INFO] termvisage: Starting a new session
+(30625) (2025-03-26 07:42:28,526) [INFO] termvisage: Logging level set to WARNING
+(30625) (2025-03-26 07:42:28,597) [INFO] termvisage.cli: Running in CLI mode
+(30625) (2025-03-26 07:42:28,887) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(30717) (2025-03-26 07:43:00,107) [INFO] termvisage: Starting a new session
+(30717) (2025-03-26 07:43:00,108) [INFO] termvisage: Logging level set to WARNING
+(30717) (2025-03-26 07:43:00,178) [INFO] termvisage.cli: Running in CLI mode
+(30717) (2025-03-26 07:43:00,483) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(30753) (2025-03-26 07:43:04,791) [INFO] termvisage: Starting a new session
+(30753) (2025-03-26 07:43:04,791) [INFO] termvisage: Logging level set to WARNING
+(30753) (2025-03-26 07:43:04,855) [INFO] termvisage.cli: Running in CLI mode
+(30753) (2025-03-26 07:43:05,159) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(31538) (2025-03-26 07:47:20,970) [INFO] termvisage: Starting a new session
+(31538) (2025-03-26 07:47:20,970) [INFO] termvisage: Logging level set to WARNING
+(31538) (2025-03-26 07:47:20,994) [ERROR] termvisage.cli: '15' is invalid or does not exist
+(31538) (2025-03-26 07:47:21,040) [INFO] termvisage.cli: Running in CLI mode
+(31538) (2025-03-26 07:47:21,335) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(31708) (2025-03-26 07:47:58,169) [INFO] termvisage: Starting a new session
+(31708) (2025-03-26 07:47:58,169) [INFO] termvisage: Logging level set to WARNING
+(31708) (2025-03-26 07:47:58,238) [INFO] termvisage.cli: Running in CLI mode
+(31708) (2025-03-26 07:47:58,513) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(31752) (2025-03-26 07:48:11,582) [INFO] termvisage: Starting a new session
+(31752) (2025-03-26 07:48:11,582) [INFO] termvisage: Logging level set to WARNING
+(31752) (2025-03-26 07:48:11,606) [ERROR] termvisage.cli: '/data/data/com.termux/files/home/.config/fastfetch/android.pn' is invalid or does not exist
+(31752) (2025-03-26 07:48:11,612) [INFO] termvisage.cli: No valid source!
+(31752) (2025-03-26 07:48:11,621) [INFO] termvisage: Session ended with return-code 4 (NO_VALID_SOURCE)
+(31786) (2025-03-26 07:48:16,309) [INFO] termvisage: Starting a new session
+(31786) (2025-03-26 07:48:16,309) [INFO] termvisage: Logging level set to WARNING
+(31786) (2025-03-26 07:48:16,379) [INFO] termvisage.cli: Running in CLI mode
+(31786) (2025-03-26 07:48:16,654) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(31854) (2025-03-26 07:48:22,280) [INFO] termvisage: Starting a new session
+(31854) (2025-03-26 07:48:22,281) [INFO] termvisage: Logging level set to WARNING
+(31854) (2025-03-26 07:48:22,351) [INFO] termvisage.cli: Running in CLI mode
+(31854) (2025-03-26 07:48:22,625) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(856) (2025-03-26 07:51:44,229) [INFO] termvisage: Starting a new session
+(856) (2025-03-26 07:51:44,230) [INFO] termvisage: Logging level set to WARNING
+(856) (2025-03-26 07:51:44,336) [INFO] termvisage.cli: Running in CLI mode
+(856) (2025-03-26 07:51:44,347) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(926) (2025-03-26 07:52:09,696) [INFO] termvisage: Starting a new session
+(926) (2025-03-26 07:52:09,697) [INFO] termvisage: Logging level set to WARNING
+(926) (2025-03-26 07:52:09,770) [INFO] termvisage.cli: Running in CLI mode
+(926) (2025-03-26 07:52:10,060) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(972) (2025-03-26 07:52:17,448) [INFO] termvisage: Starting a new session
+(972) (2025-03-26 07:52:17,449) [INFO] termvisage: Logging level set to WARNING
+(972) (2025-03-26 07:52:17,526) [INFO] termvisage.cli: Running in CLI mode
+(972) (2025-03-26 07:52:17,918) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(2344) (2025-03-26 07:53:44,675) [INFO] termvisage: Starting a new session
+(2344) (2025-03-26 07:53:44,675) [INFO] termvisage: Logging level set to WARNING
+(2344) (2025-03-26 07:53:44,740) [INFO] termvisage.cli: Running in CLI mode
+(2344) (2025-03-26 07:53:45,038) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(2389) (2025-03-26 07:53:53,544) [INFO] termvisage: Starting a new session
+(2389) (2025-03-26 07:53:53,545) [INFO] termvisage: Logging level set to WARNING
+(2389) (2025-03-26 07:53:53,630) [INFO] termvisage.cli: Running in CLI mode
+(2389) (2025-03-26 07:53:53,903) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(2542) (2025-03-26 07:54:01,529) [INFO] termvisage: Starting a new session
+(2542) (2025-03-26 07:54:01,529) [INFO] termvisage: Logging level set to WARNING
+(2542) (2025-03-26 07:54:01,607) [INFO] termvisage.cli: Running in CLI mode
+(2542) (2025-03-26 07:54:01,892) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(3334) (2025-03-26 07:55:03,926) [INFO] termvisage: Starting a new session
+(3334) (2025-03-26 07:55:03,927) [INFO] termvisage: Logging level set to WARNING
+(3334) (2025-03-26 07:55:04,028) [INFO] termvisage.cli: Running in CLI mode
+(3334) (2025-03-26 07:55:04,321) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(23349) (2025-04-05 18:54:43,215) [INFO] termvisage: Starting a new session
+(23349) (2025-04-05 18:54:43,216) [INFO] termvisage: Logging level set to WARNING
+(23349) (2025-04-05 18:54:43,420) [INFO] termvisage.cli: Running in CLI mode
+(23349) (2025-04-05 18:54:43,701) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(23378) (2025-04-05 18:54:53,065) [INFO] termvisage: Starting a new session
+(23378) (2025-04-05 18:54:53,066) [INFO] termvisage: Logging level set to WARNING
+(23378) (2025-04-05 18:54:53,091) [INFO] termvisage: Session ended with return-code 2 (INVALID_ARG)
+(23404) (2025-04-05 18:55:00,566) [INFO] termvisage: Starting a new session
+(23404) (2025-04-05 18:55:00,567) [INFO] termvisage: Logging level set to WARNING
+(23404) (2025-04-05 18:55:00,590) [INFO] termvisage: Session ended with return-code 2 (INVALID_ARG)
+(23430) (2025-04-05 18:55:07,729) [INFO] termvisage: Starting a new session
+(23430) (2025-04-05 18:55:07,730) [INFO] termvisage: Logging level set to WARNING
+(23430) (2025-04-05 18:55:07,834) [INFO] termvisage.cli: Running in CLI mode
+(23430) (2025-04-05 18:55:08,124) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(23455) (2025-04-05 18:55:14,822) [INFO] termvisage: Starting a new session
+(23455) (2025-04-05 18:55:14,823) [INFO] termvisage: Logging level set to WARNING
+(23455) (2025-04-05 18:55:14,901) [INFO] termvisage.cli: Running in CLI mode
+(23455) (2025-04-05 18:55:15,182) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)
+(23488) (2025-04-05 18:55:22,639) [INFO] termvisage: Starting a new session
+(23488) (2025-04-05 18:55:22,640) [INFO] termvisage: Logging level set to WARNING
+(23488) (2025-04-05 18:55:22,717) [INFO] termvisage.cli: Running in CLI mode
+(23488) (2025-04-05 18:55:22,992) [INFO] termvisage: Session ended with return-code 0 (SUCCESS)

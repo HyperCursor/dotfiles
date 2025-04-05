@@ -1,0 +1,923 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/dotfiles/.config/fastfetch/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install terimage
+8 verbose argv "install" "terimage"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-03-25T14_15_17_061Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-03-25T14_15_17_061Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1098907648 maxSize:274726912 maxEntrySize:137363456
+13 silly idealTree buildDeps
+14 silly fetch manifest terimage@*
+15 silly packumentCache full:https://registry.npmjs.org/terimage cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/terimage 1385ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/terimage set size:undefined disposed:false
+18 silly placeDep ROOT terimage@1.0.0 OK for:  want: *
+19 silly fetch manifest chalk@4.1.2
+20 silly packumentCache full:https://registry.npmjs.org/chalk cache-miss
+21 silly fetch manifest jimp@^0.22.12
+22 silly packumentCache full:https://registry.npmjs.org/jimp cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/chalk 175ms (cache miss)
+24 silly packumentCache full:https://registry.npmjs.org/chalk set size:undefined disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/jimp 415ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/jimp set size:undefined disposed:false
+27 silly placeDep ROOT chalk@4.1.2 OK for: terimage@1.0.0 want: 4.1.2
+28 silly placeDep ROOT jimp@0.22.12 OK for: terimage@1.0.0 want: ^0.22.12
+29 silly fetch manifest ansi-styles@^4.1.0
+30 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+31 silly fetch manifest supports-color@^7.1.0
+32 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+33 silly fetch manifest @jimp/types@^0.22.12
+34 silly packumentCache full:https://registry.npmjs.org/@jimp%2ftypes cache-miss
+35 silly fetch manifest @jimp/custom@^0.22.12
+36 silly packumentCache full:https://registry.npmjs.org/@jimp%2fcustom cache-miss
+37 silly fetch manifest @jimp/plugins@^0.22.12
+38 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugins cache-miss
+39 silly fetch manifest regenerator-runtime@^0.13.3
+40 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/ansi-styles 152ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:undefined disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/supports-color 159ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/supports-color set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 425ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/@jimp%2ftypes 556ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/@jimp%2ftypes set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugins 590ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugins set size:undefined disposed:false
+51 http fetch GET 200 https://registry.npmjs.org/@jimp%2fcustom 619ms (cache miss)
+52 silly packumentCache full:https://registry.npmjs.org/@jimp%2fcustom set size:undefined disposed:false
+53 silly placeDep ROOT ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+54 silly placeDep ROOT supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+55 silly fetch manifest color-convert@^2.0.1
+56 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+57 silly fetch manifest has-flag@^4.0.0
+58 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/color-convert 130ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/color-convert set size:undefined disposed:false
+61 http fetch GET 200 https://registry.npmjs.org/has-flag 138ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/has-flag set size:undefined disposed:false
+63 silly placeDep ROOT color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+64 silly fetch manifest color-name@~1.1.4
+65 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/color-name 112ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/color-name set size:undefined disposed:false
+68 silly placeDep ROOT color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+69 silly placeDep ROOT @jimp/custom@0.22.12 OK for: jimp@0.22.12 want: ^0.22.12
+70 silly placeDep ROOT @jimp/plugins@0.22.12 OK for: jimp@0.22.12 want: ^0.22.12
+71 silly placeDep ROOT @jimp/types@0.22.12 OK for: jimp@0.22.12 want: ^0.22.12
+72 silly placeDep ROOT regenerator-runtime@0.13.11 OK for: jimp@0.22.12 want: ^0.13.3
+73 silly fetch manifest @jimp/core@^0.22.12
+74 silly packumentCache full:https://registry.npmjs.org/@jimp%2fcore cache-miss
+75 silly fetch manifest @jimp/plugin-blit@^0.22.12
+76 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-blit cache-miss
+77 silly fetch manifest @jimp/plugin-blur@^0.22.12
+78 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-blur cache-miss
+79 silly fetch manifest @jimp/plugin-circle@^0.22.12
+80 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-circle cache-miss
+81 silly fetch manifest @jimp/plugin-color@^0.22.12
+82 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-color cache-miss
+83 silly fetch manifest @jimp/plugin-contain@^0.22.12
+84 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-contain cache-miss
+85 silly fetch manifest @jimp/plugin-cover@^0.22.12
+86 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-cover cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-circle 739ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-circle set size:undefined disposed:false
+89 silly fetch manifest @jimp/plugin-crop@^0.22.12
+90 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-crop cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-blit 773ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-blit set size:undefined disposed:false
+93 silly fetch manifest @jimp/plugin-displace@^0.22.12
+94 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-displace cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/@jimp%2fcore 821ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/@jimp%2fcore set size:undefined disposed:false
+97 silly fetch manifest @jimp/plugin-dither@^0.22.12
+98 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-dither cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-contain 886ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-contain set size:undefined disposed:false
+101 silly fetch manifest @jimp/plugin-fisheye@^0.22.12
+102 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-fisheye cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-cover 1000ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-cover set size:undefined disposed:false
+105 silly fetch manifest @jimp/plugin-flip@^0.22.12
+106 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-flip cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-displace 294ms (cache miss)
+108 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-displace set size:undefined disposed:false
+109 silly fetch manifest @jimp/plugin-gaussian@^0.22.12
+110 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-gaussian cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-crop 364ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-crop set size:undefined disposed:false
+113 silly fetch manifest @jimp/plugin-invert@^0.22.12
+114 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-invert cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-blur 1196ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-blur set size:undefined disposed:false
+117 silly fetch manifest @jimp/plugin-mask@^0.22.12
+118 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-mask cache-miss
+119 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-color 1229ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-color set size:undefined disposed:false
+121 silly fetch manifest @jimp/plugin-normalize@^0.22.12
+122 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-normalize cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-dither 506ms (cache miss)
+124 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-dither set size:undefined disposed:false
+125 silly fetch manifest @jimp/plugin-print@^0.22.12
+126 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-print cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-fisheye 495ms (cache miss)
+128 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-fisheye set size:undefined disposed:false
+129 silly fetch manifest @jimp/plugin-resize@^0.22.12
+130 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-resize cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-flip 446ms (cache miss)
+132 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-flip set size:undefined disposed:false
+133 silly fetch manifest @jimp/plugin-rotate@^0.22.12
+134 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-rotate cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-gaussian 417ms (cache miss)
+136 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-gaussian set size:undefined disposed:false
+137 silly fetch manifest @jimp/plugin-scale@^0.22.12
+138 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-scale cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-invert 448ms (cache miss)
+140 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-invert set size:undefined disposed:false
+141 silly fetch manifest @jimp/plugin-shadow@^0.22.12
+142 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-shadow cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-mask 449ms (cache miss)
+144 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-mask set size:undefined disposed:false
+145 silly fetch manifest @jimp/plugin-threshold@^0.22.12
+146 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-threshold cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-normalize 448ms (cache miss)
+148 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-normalize set size:undefined disposed:false
+149 silly fetch manifest timm@^1.6.1
+150 silly packumentCache full:https://registry.npmjs.org/timm cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-print 405ms (cache miss)
+152 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-print set size:undefined disposed:false
+153 silly fetch manifest timm@^1.6.1
+154 silly packumentCache full:https://registry.npmjs.org/timm cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-resize 377ms (cache miss)
+156 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-resize set size:undefined disposed:false
+157 silly fetch manifest @jimp/bmp@^0.22.12
+158 silly packumentCache full:https://registry.npmjs.org/@jimp%2fbmp cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-scale 333ms (cache miss)
+160 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-scale set size:undefined disposed:false
+161 silly fetch manifest @jimp/gif@^0.22.12
+162 silly packumentCache full:https://registry.npmjs.org/@jimp%2fgif cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/timm 213ms (cache miss)
+164 silly packumentCache full:https://registry.npmjs.org/timm set size:undefined disposed:false
+165 silly fetch manifest @jimp/png@^0.22.12
+166 silly packumentCache full:https://registry.npmjs.org/@jimp%2fpng cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-shadow 362ms (cache miss)
+168 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-shadow set size:undefined disposed:false
+169 silly fetch manifest @jimp/jpeg@^0.22.12
+170 silly packumentCache full:https://registry.npmjs.org/@jimp%2fjpeg cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/timm 227ms (cache miss)
+172 silly packumentCache full:https://registry.npmjs.org/timm set size:undefined disposed:false
+173 silly fetch manifest @jimp/tiff@^0.22.12
+174 silly packumentCache full:https://registry.npmjs.org/@jimp%2ftiff cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-threshold 370ms (cache miss)
+176 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-threshold set size:undefined disposed:false
+177 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-rotate 618ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/@jimp%2fplugin-rotate set size:undefined disposed:false
+179 http fetch GET 200 https://registry.npmjs.org/@jimp%2fbmp 341ms (cache miss)
+180 silly packumentCache full:https://registry.npmjs.org/@jimp%2fbmp set size:undefined disposed:false
+181 http fetch GET 200 https://registry.npmjs.org/@jimp%2fgif 361ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/@jimp%2fgif set size:undefined disposed:false
+183 http fetch GET 200 https://registry.npmjs.org/@jimp%2fpng 334ms (cache miss)
+184 silly packumentCache full:https://registry.npmjs.org/@jimp%2fpng set size:undefined disposed:false
+185 http fetch GET 200 https://registry.npmjs.org/@jimp%2fjpeg 317ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/@jimp%2fjpeg set size:undefined disposed:false
+187 http fetch GET 200 https://registry.npmjs.org/@jimp%2ftiff 304ms (cache miss)
+188 silly packumentCache full:https://registry.npmjs.org/@jimp%2ftiff set size:undefined disposed:false
+189 silly placeDep ROOT @jimp/core@0.22.12 OK for: @jimp/custom@0.22.12 want: ^0.22.12
+190 silly fetch manifest buffer@^5.2.0
+191 silly packumentCache full:https://registry.npmjs.org/buffer cache-miss
+192 silly fetch manifest any-base@^1.1.0
+193 silly packumentCache full:https://registry.npmjs.org/any-base cache-miss
+194 silly fetch manifest file-type@^16.5.4
+195 silly packumentCache full:https://registry.npmjs.org/file-type cache-miss
+196 silly fetch manifest pixelmatch@^4.0.2
+197 silly packumentCache full:https://registry.npmjs.org/pixelmatch cache-miss
+198 silly fetch manifest tinycolor2@^1.6.0
+199 silly packumentCache full:https://registry.npmjs.org/tinycolor2 cache-miss
+200 silly fetch manifest @jimp/utils@^0.22.12
+201 silly packumentCache full:https://registry.npmjs.org/@jimp%2futils cache-miss
+202 silly fetch manifest exif-parser@^0.1.12
+203 silly packumentCache full:https://registry.npmjs.org/exif-parser cache-miss
+204 http fetch GET 200 https://registry.npmjs.org/pixelmatch 208ms (cache miss)
+205 silly packumentCache full:https://registry.npmjs.org/pixelmatch set size:undefined disposed:false
+206 silly fetch manifest isomorphic-fetch@^3.0.0
+207 silly packumentCache full:https://registry.npmjs.org/isomorphic-fetch cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/any-base 220ms (cache miss)
+209 silly packumentCache full:https://registry.npmjs.org/any-base set size:undefined disposed:false
+210 http fetch GET 200 https://registry.npmjs.org/exif-parser 225ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/exif-parser set size:undefined disposed:false
+212 http fetch GET 200 https://registry.npmjs.org/tinycolor2 239ms (cache miss)
+213 silly packumentCache full:https://registry.npmjs.org/tinycolor2 set size:undefined disposed:false
+214 http fetch GET 200 https://registry.npmjs.org/file-type 289ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/file-type set size:undefined disposed:false
+216 http fetch GET 200 https://registry.npmjs.org/buffer 330ms (cache miss)
+217 silly packumentCache full:https://registry.npmjs.org/buffer set size:undefined disposed:false
+218 http fetch GET 200 https://registry.npmjs.org/isomorphic-fetch 139ms (cache miss)
+219 silly packumentCache full:https://registry.npmjs.org/isomorphic-fetch set size:undefined disposed:false
+220 http fetch GET 200 https://registry.npmjs.org/@jimp%2futils 435ms (cache miss)
+221 silly packumentCache full:https://registry.npmjs.org/@jimp%2futils set size:undefined disposed:false
+222 silly placeDep ROOT @jimp/utils@0.22.12 OK for: @jimp/core@0.22.12 want: ^0.22.12
+223 silly placeDep ROOT any-base@1.1.0 OK for: @jimp/core@0.22.12 want: ^1.1.0
+224 silly placeDep ROOT buffer@5.7.1 OK for: @jimp/core@0.22.12 want: ^5.2.0
+225 silly placeDep ROOT exif-parser@0.1.12 OK for: @jimp/core@0.22.12 want: ^0.1.12
+226 silly placeDep ROOT file-type@16.5.4 OK for: @jimp/core@0.22.12 want: ^16.5.4
+227 silly placeDep ROOT isomorphic-fetch@3.0.0 OK for: @jimp/core@0.22.12 want: ^3.0.0
+228 silly placeDep ROOT pixelmatch@4.0.2 OK for: @jimp/core@0.22.12 want: ^4.0.2
+229 silly placeDep ROOT tinycolor2@1.6.0 OK for: @jimp/core@0.22.12 want: ^1.6.0
+230 silly fetch manifest base64-js@^1.3.1
+231 silly packumentCache full:https://registry.npmjs.org/base64-js cache-miss
+232 silly fetch manifest ieee754@^1.1.13
+233 silly packumentCache full:https://registry.npmjs.org/ieee754 cache-miss
+234 silly fetch manifest strtok3@^6.2.4
+235 silly packumentCache full:https://registry.npmjs.org/strtok3 cache-miss
+236 silly fetch manifest token-types@^4.1.1
+237 silly packumentCache full:https://registry.npmjs.org/token-types cache-miss
+238 silly fetch manifest readable-web-to-node-stream@^3.0.0
+239 silly packumentCache full:https://registry.npmjs.org/readable-web-to-node-stream cache-miss
+240 silly fetch manifest node-fetch@^2.6.1
+241 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+242 silly fetch manifest whatwg-fetch@^3.4.1
+243 silly packumentCache full:https://registry.npmjs.org/whatwg-fetch cache-miss
+244 http fetch GET 200 https://registry.npmjs.org/base64-js 154ms (cache miss)
+245 silly packumentCache full:https://registry.npmjs.org/base64-js set size:undefined disposed:false
+246 silly fetch manifest pngjs@^3.0.0
+247 silly packumentCache full:https://registry.npmjs.org/pngjs cache-miss
+248 http fetch GET 200 https://registry.npmjs.org/ieee754 163ms (cache miss)
+249 silly packumentCache full:https://registry.npmjs.org/ieee754 set size:undefined disposed:false
+250 http fetch GET 200 https://registry.npmjs.org/readable-web-to-node-stream 240ms (cache miss)
+251 silly packumentCache full:https://registry.npmjs.org/readable-web-to-node-stream set size:undefined disposed:false
+252 http fetch GET 200 https://registry.npmjs.org/whatwg-fetch 247ms (cache miss)
+253 silly packumentCache full:https://registry.npmjs.org/whatwg-fetch set size:undefined disposed:false
+254 http fetch GET 200 https://registry.npmjs.org/token-types 258ms (cache miss)
+255 silly packumentCache full:https://registry.npmjs.org/token-types set size:undefined disposed:false
+256 http fetch GET 200 https://registry.npmjs.org/strtok3 277ms (cache miss)
+257 silly packumentCache full:https://registry.npmjs.org/strtok3 set size:undefined disposed:false
+258 http fetch GET 200 https://registry.npmjs.org/node-fetch 304ms (cache miss)
+259 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:undefined disposed:false
+260 http fetch GET 200 https://registry.npmjs.org/pngjs 193ms (cache miss)
+261 silly packumentCache full:https://registry.npmjs.org/pngjs set size:undefined disposed:false
+262 silly fetch manifest @jimp/custom@>=0.3.5
+263 silly packumentCache full:https://registry.npmjs.org/@jimp%2fcustom cache-miss
+264 http cache https://registry.npmjs.org/@jimp%2fcustom 42ms (cache hit)
+265 silly packumentCache full:https://registry.npmjs.org/@jimp%2fcustom set size:1162364 disposed:false
+266 silly placeDep ROOT @jimp/plugin-blit@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+267 silly placeDep ROOT @jimp/plugin-blur@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+268 silly placeDep ROOT @jimp/plugin-circle@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+269 silly placeDep ROOT @jimp/plugin-color@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+270 silly placeDep ROOT @jimp/plugin-contain@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+271 silly placeDep ROOT @jimp/plugin-scale@0.22.12 OK for: @jimp/plugin-contain@0.22.12 want: >=0.3.5
+272 silly placeDep ROOT @jimp/plugin-resize@0.22.12 OK for: @jimp/plugin-scale@0.22.12 want: >=0.3.5
+273 silly placeDep ROOT @jimp/plugin-cover@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+274 silly placeDep ROOT @jimp/plugin-crop@0.22.12 OK for: @jimp/plugin-cover@0.22.12 want: >=0.3.5
+275 silly placeDep ROOT @jimp/plugin-displace@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+276 silly placeDep ROOT @jimp/plugin-dither@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+277 silly placeDep ROOT @jimp/plugin-fisheye@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+278 silly placeDep ROOT @jimp/plugin-flip@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+279 silly placeDep ROOT @jimp/plugin-rotate@0.22.12 OK for: @jimp/plugin-flip@0.22.12 want: >=0.3.5
+280 silly placeDep ROOT @jimp/plugin-gaussian@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+281 silly placeDep ROOT @jimp/plugin-invert@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+282 silly placeDep ROOT @jimp/plugin-mask@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+283 silly placeDep ROOT @jimp/plugin-normalize@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+284 silly placeDep ROOT @jimp/plugin-print@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+285 silly placeDep ROOT @jimp/plugin-shadow@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+286 silly placeDep ROOT @jimp/plugin-threshold@0.22.12 OK for: @jimp/plugins@0.22.12 want: ^0.22.12
+287 silly placeDep ROOT timm@1.7.1 OK for: @jimp/plugins@0.22.12 want: ^1.6.1
+288 silly fetch manifest load-bmfont@^1.4.1
+289 silly packumentCache full:https://registry.npmjs.org/load-bmfont cache-miss
+290 http fetch GET 200 https://registry.npmjs.org/load-bmfont 136ms (cache miss)
+291 silly packumentCache full:https://registry.npmjs.org/load-bmfont set size:undefined disposed:false
+292 silly placeDep ROOT load-bmfont@1.4.2 OK for: @jimp/plugin-print@0.22.12 want: ^1.4.1
+293 silly fetch manifest buffer-equal@0.0.1
+294 silly packumentCache full:https://registry.npmjs.org/buffer-equal cache-miss
+295 silly fetch manifest mime@^1.3.4
+296 silly packumentCache full:https://registry.npmjs.org/mime cache-miss
+297 silly fetch manifest parse-bmfont-ascii@^1.0.3
+298 silly packumentCache full:https://registry.npmjs.org/parse-bmfont-ascii cache-miss
+299 silly fetch manifest parse-bmfont-binary@^1.0.5
+300 silly packumentCache full:https://registry.npmjs.org/parse-bmfont-binary cache-miss
+301 silly fetch manifest parse-bmfont-xml@^1.1.4
+302 silly packumentCache full:https://registry.npmjs.org/parse-bmfont-xml cache-miss
+303 silly fetch manifest phin@^3.7.1
+304 silly packumentCache full:https://registry.npmjs.org/phin cache-miss
+305 silly fetch manifest xhr@^2.0.1
+306 silly packumentCache full:https://registry.npmjs.org/xhr cache-miss
+307 http fetch GET 200 https://registry.npmjs.org/buffer-equal 178ms (cache miss)
+308 silly packumentCache full:https://registry.npmjs.org/buffer-equal set size:undefined disposed:false
+309 silly fetch manifest xtend@^4.0.0
+310 silly packumentCache full:https://registry.npmjs.org/xtend cache-miss
+311 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-ascii 206ms (cache miss)
+312 silly packumentCache full:https://registry.npmjs.org/parse-bmfont-ascii set size:undefined disposed:false
+313 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-binary 210ms (cache miss)
+314 silly packumentCache full:https://registry.npmjs.org/parse-bmfont-binary set size:undefined disposed:false
+315 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-xml 211ms (cache miss)
+316 silly packumentCache full:https://registry.npmjs.org/parse-bmfont-xml set size:undefined disposed:false
+317 http fetch GET 200 https://registry.npmjs.org/phin 214ms (cache miss)
+318 silly packumentCache full:https://registry.npmjs.org/phin set size:undefined disposed:false
+319 http fetch GET 200 https://registry.npmjs.org/xhr 221ms (cache miss)
+320 silly packumentCache full:https://registry.npmjs.org/xhr set size:undefined disposed:false
+321 http fetch GET 200 https://registry.npmjs.org/xtend 82ms (cache miss)
+322 silly packumentCache full:https://registry.npmjs.org/xtend set size:undefined disposed:false
+323 http fetch GET 200 https://registry.npmjs.org/mime 923ms (cache miss)
+324 silly packumentCache full:https://registry.npmjs.org/mime set size:undefined disposed:false
+325 silly placeDep ROOT @jimp/bmp@0.22.12 OK for: @jimp/types@0.22.12 want: ^0.22.12
+326 silly placeDep ROOT @jimp/gif@0.22.12 OK for: @jimp/types@0.22.12 want: ^0.22.12
+327 silly placeDep ROOT @jimp/jpeg@0.22.12 OK for: @jimp/types@0.22.12 want: ^0.22.12
+328 silly placeDep ROOT @jimp/png@0.22.12 OK for: @jimp/types@0.22.12 want: ^0.22.12
+329 silly placeDep ROOT @jimp/tiff@0.22.12 OK for: @jimp/types@0.22.12 want: ^0.22.12
+330 silly fetch manifest bmp-js@^0.1.0
+331 silly packumentCache full:https://registry.npmjs.org/bmp-js cache-miss
+332 silly fetch manifest gifwrap@^0.10.1
+333 silly packumentCache full:https://registry.npmjs.org/gifwrap cache-miss
+334 silly fetch manifest omggif@^1.0.9
+335 silly packumentCache full:https://registry.npmjs.org/omggif cache-miss
+336 silly fetch manifest jpeg-js@^0.4.4
+337 silly packumentCache full:https://registry.npmjs.org/jpeg-js cache-miss
+338 silly fetch manifest pngjs@^6.0.0
+339 silly packumentCache full:https://registry.npmjs.org/pngjs cache-miss
+340 silly fetch manifest utif2@^4.0.1
+341 silly packumentCache full:https://registry.npmjs.org/utif2 cache-miss
+342 http cache https://registry.npmjs.org/pngjs 40ms (cache hit)
+343 silly packumentCache full:https://registry.npmjs.org/pngjs set size:70154 disposed:false
+344 http fetch GET 200 https://registry.npmjs.org/omggif 128ms (cache miss)
+345 silly packumentCache full:https://registry.npmjs.org/omggif set size:undefined disposed:false
+346 http fetch GET 200 https://registry.npmjs.org/bmp-js 140ms (cache miss)
+347 silly packumentCache full:https://registry.npmjs.org/bmp-js set size:undefined disposed:false
+348 http fetch GET 200 https://registry.npmjs.org/utif2 136ms (cache miss)
+349 silly packumentCache full:https://registry.npmjs.org/utif2 set size:undefined disposed:false
+350 http fetch GET 200 https://registry.npmjs.org/gifwrap 147ms (cache miss)
+351 silly packumentCache full:https://registry.npmjs.org/gifwrap set size:undefined disposed:false
+352 http fetch GET 200 https://registry.npmjs.org/jpeg-js 150ms (cache miss)
+353 silly packumentCache full:https://registry.npmjs.org/jpeg-js set size:undefined disposed:false
+354 silly placeDep ROOT bmp-js@0.1.0 OK for: @jimp/bmp@0.22.12 want: ^0.1.0
+355 silly placeDep ROOT gifwrap@0.10.1 OK for: @jimp/gif@0.22.12 want: ^0.10.1
+356 silly placeDep ROOT omggif@1.0.10 OK for: @jimp/gif@0.22.12 want: ^1.0.9
+357 silly fetch manifest image-q@^4.0.0
+358 silly packumentCache full:https://registry.npmjs.org/image-q cache-miss
+359 silly fetch manifest omggif@^1.0.10
+360 silly packumentCache full:https://registry.npmjs.org/omggif cache-miss
+361 http cache https://registry.npmjs.org/omggif 16ms (cache hit)
+362 silly packumentCache full:https://registry.npmjs.org/omggif set size:9453 disposed:false
+363 http fetch GET 200 https://registry.npmjs.org/image-q 85ms (cache miss)
+364 silly packumentCache full:https://registry.npmjs.org/image-q set size:undefined disposed:false
+365 silly placeDep ROOT jpeg-js@0.4.4 OK for: @jimp/jpeg@0.22.12 want: ^0.4.4
+366 silly placeDep ROOT pngjs@6.0.0 OK for: @jimp/png@0.22.12 want: ^6.0.0
+367 silly placeDep ROOT utif2@4.1.0 OK for: @jimp/tiff@0.22.12 want: ^4.0.1
+368 silly fetch manifest pako@^1.0.11
+369 silly packumentCache full:https://registry.npmjs.org/pako cache-miss
+370 http fetch GET 200 https://registry.npmjs.org/pako 112ms (cache miss)
+371 silly packumentCache full:https://registry.npmjs.org/pako set size:undefined disposed:false
+372 silly placeDep ROOT base64-js@1.5.1 OK for: buffer@5.7.1 want: ^1.3.1
+373 silly placeDep ROOT ieee754@1.2.1 OK for: buffer@5.7.1 want: ^1.1.13
+374 silly placeDep ROOT readable-web-to-node-stream@3.0.4 OK for: file-type@16.5.4 want: ^3.0.0
+375 silly placeDep ROOT strtok3@6.3.0 OK for: file-type@16.5.4 want: ^6.2.4
+376 silly placeDep ROOT token-types@4.2.1 OK for: file-type@16.5.4 want: ^4.1.1
+377 silly fetch manifest readable-stream@^4.7.0
+378 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+379 silly fetch manifest peek-readable@^4.1.0
+380 silly packumentCache full:https://registry.npmjs.org/peek-readable cache-miss
+381 silly fetch manifest @tokenizer/token@^0.3.0
+382 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2ftoken cache-miss
+383 silly fetch manifest @tokenizer/token@^0.3.0
+384 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2ftoken cache-miss
+385 http fetch GET 200 https://registry.npmjs.org/@tokenizer%2ftoken 143ms (cache miss)
+386 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2ftoken set size:undefined disposed:false
+387 http fetch GET 200 https://registry.npmjs.org/peek-readable 160ms (cache miss)
+388 silly packumentCache full:https://registry.npmjs.org/peek-readable set size:undefined disposed:false
+389 http fetch GET 200 https://registry.npmjs.org/readable-stream 176ms (cache miss)
+390 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:undefined disposed:false
+391 http fetch GET 200 https://registry.npmjs.org/@tokenizer%2ftoken 187ms (cache miss)
+392 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2ftoken set size:undefined disposed:false
+393 silly placeDep ROOT image-q@4.0.0 OK for: gifwrap@0.10.1 want: ^4.0.0
+394 silly fetch manifest @types/node@16.9.1
+395 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+396 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 563ms (cache miss)
+397 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+398 silly placeDep ROOT @types/node@16.9.1 OK for: image-q@4.0.0 want: 16.9.1
+399 silly fetch manifest encoding@^0.1.0
+400 silly packumentCache full:https://registry.npmjs.org/encoding cache-miss
+401 http fetch GET 200 https://registry.npmjs.org/encoding 303ms (cache miss)
+402 silly packumentCache full:https://registry.npmjs.org/encoding set size:undefined disposed:false
+403 silly placeDep ROOT node-fetch@2.7.0 OK for: isomorphic-fetch@3.0.0 want: ^2.6.1
+404 silly placeDep ROOT whatwg-fetch@3.6.20 OK for: isomorphic-fetch@3.0.0 want: ^3.4.1
+405 silly fetch manifest whatwg-url@^5.0.0
+406 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+407 http fetch GET 200 https://registry.npmjs.org/whatwg-url 137ms (cache miss)
+408 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:undefined disposed:false
+409 silly placeDep ROOT buffer-equal@0.0.1 OK for: load-bmfont@1.4.2 want: 0.0.1
+410 silly placeDep ROOT mime@1.6.0 OK for: load-bmfont@1.4.2 want: ^1.3.4
+411 silly placeDep ROOT parse-bmfont-ascii@1.0.6 OK for: load-bmfont@1.4.2 want: ^1.0.3
+412 silly placeDep ROOT parse-bmfont-binary@1.0.6 OK for: load-bmfont@1.4.2 want: ^1.0.5
+413 silly placeDep ROOT parse-bmfont-xml@1.1.6 OK for: load-bmfont@1.4.2 want: ^1.1.4
+414 silly placeDep ROOT phin@3.7.1 OK for: load-bmfont@1.4.2 want: ^3.7.1
+415 silly placeDep ROOT xhr@2.6.0 OK for: load-bmfont@1.4.2 want: ^2.0.1
+416 silly placeDep ROOT xtend@4.0.2 OK for: load-bmfont@1.4.2 want: ^4.0.0
+417 silly fetch manifest xml-parse-from-string@^1.0.0
+418 silly packumentCache full:https://registry.npmjs.org/xml-parse-from-string cache-miss
+419 silly fetch manifest xml2js@^0.5.0
+420 silly packumentCache full:https://registry.npmjs.org/xml2js cache-miss
+421 silly fetch manifest centra@^2.7.0
+422 silly packumentCache full:https://registry.npmjs.org/centra cache-miss
+423 silly fetch manifest global@~4.4.0
+424 silly packumentCache full:https://registry.npmjs.org/global cache-miss
+425 silly fetch manifest is-function@^1.0.1
+426 silly packumentCache full:https://registry.npmjs.org/is-function cache-miss
+427 silly fetch manifest parse-headers@^2.0.0
+428 silly packumentCache full:https://registry.npmjs.org/parse-headers cache-miss
+429 http fetch GET 200 https://registry.npmjs.org/parse-headers 138ms (cache miss)
+430 silly packumentCache full:https://registry.npmjs.org/parse-headers set size:undefined disposed:false
+431 http fetch GET 200 https://registry.npmjs.org/xml-parse-from-string 151ms (cache miss)
+432 silly packumentCache full:https://registry.npmjs.org/xml-parse-from-string set size:undefined disposed:false
+433 http fetch GET 200 https://registry.npmjs.org/centra 149ms (cache miss)
+434 silly packumentCache full:https://registry.npmjs.org/centra set size:undefined disposed:false
+435 http fetch GET 200 https://registry.npmjs.org/is-function 149ms (cache miss)
+436 silly packumentCache full:https://registry.npmjs.org/is-function set size:undefined disposed:false
+437 http fetch GET 200 https://registry.npmjs.org/global 155ms (cache miss)
+438 silly packumentCache full:https://registry.npmjs.org/global set size:undefined disposed:false
+439 http fetch GET 200 https://registry.npmjs.org/xml2js 167ms (cache miss)
+440 silly packumentCache full:https://registry.npmjs.org/xml2js set size:undefined disposed:false
+441 silly placeDep ROOT whatwg-url@5.0.0 OK for: node-fetch@2.7.0 want: ^5.0.0
+442 silly fetch manifest tr46@~0.0.3
+443 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+444 silly fetch manifest webidl-conversions@^3.0.0
+445 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+446 http fetch GET 200 https://registry.npmjs.org/tr46 105ms (cache miss)
+447 silly packumentCache full:https://registry.npmjs.org/tr46 set size:undefined disposed:false
+448 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 110ms (cache miss)
+449 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:undefined disposed:false
+450 silly placeDep ROOT xml-parse-from-string@1.0.1 OK for: parse-bmfont-xml@1.1.6 want: ^1.0.0
+451 silly placeDep ROOT xml2js@0.5.0 OK for: parse-bmfont-xml@1.1.6 want: ^0.5.0
+452 silly fetch manifest sax@>=0.6.0
+453 silly packumentCache full:https://registry.npmjs.org/sax cache-miss
+454 silly fetch manifest xmlbuilder@~11.0.0
+455 silly packumentCache full:https://registry.npmjs.org/xmlbuilder cache-miss
+456 http fetch GET 200 https://registry.npmjs.org/sax 130ms (cache miss)
+457 silly packumentCache full:https://registry.npmjs.org/sax set size:undefined disposed:false
+458 http fetch GET 200 https://registry.npmjs.org/xmlbuilder 145ms (cache miss)
+459 silly packumentCache full:https://registry.npmjs.org/xmlbuilder set size:undefined disposed:false
+460 silly placeDep ROOT centra@2.7.0 OK for: phin@3.7.1 want: ^2.7.0
+461 silly fetch manifest follow-redirects@^1.15.6
+462 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+463 http fetch GET 200 https://registry.npmjs.org/follow-redirects 100ms (cache miss)
+464 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+465 silly placeDep ROOT follow-redirects@1.15.9 OK for: centra@2.7.0 want: ^1.15.6
+466 silly placeDep node_modules/pixelmatch pngjs@3.4.0 OK for: pixelmatch@4.0.2 want: ^3.0.0
+467 silly placeDep ROOT readable-stream@4.7.0 OK for: readable-web-to-node-stream@3.0.4 want: ^4.7.0
+468 silly fetch manifest abort-controller@^3.0.0
+469 silly packumentCache full:https://registry.npmjs.org/abort-controller cache-miss
+470 silly fetch manifest buffer@^6.0.3
+471 silly packumentCache full:https://registry.npmjs.org/buffer cache-miss
+472 silly fetch manifest events@^3.3.0
+473 silly packumentCache full:https://registry.npmjs.org/events cache-miss
+474 silly fetch manifest process@^0.11.10
+475 silly packumentCache full:https://registry.npmjs.org/process cache-miss
+476 silly fetch manifest string_decoder@^1.3.0
+477 silly packumentCache full:https://registry.npmjs.org/string_decoder cache-miss
+478 http cache https://registry.npmjs.org/buffer 52ms (cache hit)
+479 silly packumentCache full:https://registry.npmjs.org/buffer set size:280480 disposed:false
+480 http fetch GET 200 https://registry.npmjs.org/abort-controller 133ms (cache miss)
+481 silly packumentCache full:https://registry.npmjs.org/abort-controller set size:undefined disposed:false
+482 http fetch GET 200 https://registry.npmjs.org/string_decoder 135ms (cache miss)
+483 silly packumentCache full:https://registry.npmjs.org/string_decoder set size:undefined disposed:false
+484 http fetch GET 200 https://registry.npmjs.org/events 146ms (cache miss)
+485 silly packumentCache full:https://registry.npmjs.org/events set size:undefined disposed:false
+486 http fetch GET 200 https://registry.npmjs.org/process 149ms (cache miss)
+487 silly packumentCache full:https://registry.npmjs.org/process set size:undefined disposed:false
+488 silly placeDep ROOT abort-controller@3.0.0 OK for: readable-stream@4.7.0 want: ^3.0.0
+489 silly placeDep node_modules/readable-stream buffer@6.0.3 OK for: readable-stream@4.7.0 want: ^6.0.3
+490 silly placeDep ROOT events@3.3.0 OK for: readable-stream@4.7.0 want: ^3.3.0
+491 silly placeDep ROOT process@0.11.10 OK for: readable-stream@4.7.0 want: ^0.11.10
+492 silly placeDep ROOT string_decoder@1.3.0 OK for: readable-stream@4.7.0 want: ^1.3.0
+493 silly fetch manifest event-target-shim@^5.0.0
+494 silly packumentCache full:https://registry.npmjs.org/event-target-shim cache-miss
+495 silly fetch manifest safe-buffer@~5.2.0
+496 silly packumentCache full:https://registry.npmjs.org/safe-buffer cache-miss
+497 http fetch GET 200 https://registry.npmjs.org/safe-buffer 98ms (cache miss)
+498 silly packumentCache full:https://registry.npmjs.org/safe-buffer set size:undefined disposed:false
+499 http fetch GET 200 https://registry.npmjs.org/event-target-shim 105ms (cache miss)
+500 silly packumentCache full:https://registry.npmjs.org/event-target-shim set size:undefined disposed:false
+501 silly placeDep ROOT event-target-shim@5.0.1 OK for: abort-controller@3.0.0 want: ^5.0.0
+502 silly placeDep ROOT safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+503 silly placeDep ROOT @tokenizer/token@0.3.0 OK for: strtok3@6.3.0 want: ^0.3.0
+504 silly placeDep ROOT peek-readable@4.1.0 OK for: strtok3@6.3.0 want: ^4.1.0
+505 silly placeDep ROOT has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+506 silly placeDep ROOT pako@1.0.11 OK for: utif2@4.1.0 want: ^1.0.11
+507 silly placeDep ROOT tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+508 silly placeDep ROOT webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+509 silly placeDep ROOT global@4.4.0 OK for: xhr@2.6.0 want: ~4.4.0
+510 silly placeDep ROOT is-function@1.0.2 OK for: xhr@2.6.0 want: ^1.0.1
+511 silly placeDep ROOT parse-headers@2.0.6 OK for: xhr@2.6.0 want: ^2.0.0
+512 silly fetch manifest min-document@^2.19.0
+513 silly packumentCache full:https://registry.npmjs.org/min-document cache-miss
+514 http fetch GET 200 https://registry.npmjs.org/min-document 137ms (cache miss)
+515 silly packumentCache full:https://registry.npmjs.org/min-document set size:undefined disposed:false
+516 silly placeDep ROOT min-document@2.19.0 OK for: global@4.4.0 want: ^2.19.0
+517 silly fetch manifest dom-walk@^0.1.0
+518 silly packumentCache full:https://registry.npmjs.org/dom-walk cache-miss
+519 http fetch GET 200 https://registry.npmjs.org/dom-walk 129ms (cache miss)
+520 silly packumentCache full:https://registry.npmjs.org/dom-walk set size:undefined disposed:false
+521 silly placeDep ROOT dom-walk@0.1.2 OK for: min-document@2.19.0 want: ^0.1.0
+522 silly placeDep ROOT sax@1.4.1 OK for: xml2js@0.5.0 want: >=0.6.0
+523 silly placeDep ROOT xmlbuilder@11.0.1 OK for: xml2js@0.5.0 want: ~11.0.0
+524 silly reify moves {}
+525 http cache xmlbuilder@https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz 0ms (cache hit)
+526 http cache sax@https://registry.npmjs.org/sax/-/sax-1.4.1.tgz 0ms (cache hit)
+527 http cache dom-walk@https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.2.tgz 0ms (cache hit)
+528 http cache min-document@https://registry.npmjs.org/min-document/-/min-document-2.19.0.tgz 0ms (cache hit)
+529 http cache parse-headers@https://registry.npmjs.org/parse-headers/-/parse-headers-2.0.6.tgz 0ms (cache hit)
+530 http cache is-function@https://registry.npmjs.org/is-function/-/is-function-1.0.2.tgz 0ms (cache hit)
+531 http cache global@https://registry.npmjs.org/global/-/global-4.4.0.tgz 0ms (cache hit)
+532 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 0ms (cache hit)
+533 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 0ms (cache hit)
+534 http cache pako@https://registry.npmjs.org/pako/-/pako-1.0.11.tgz 0ms (cache hit)
+535 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 0ms (cache hit)
+536 http cache peek-readable@https://registry.npmjs.org/peek-readable/-/peek-readable-4.1.0.tgz 0ms (cache hit)
+537 http cache @tokenizer/token@https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz 0ms (cache hit)
+538 http cache safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 0ms (cache hit)
+539 http cache event-target-shim@https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz 0ms (cache hit)
+540 http cache string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 0ms (cache hit)
+541 http cache process@https://registry.npmjs.org/process/-/process-0.11.10.tgz 0ms (cache hit)
+542 http cache events@https://registry.npmjs.org/events/-/events-3.3.0.tgz 0ms (cache hit)
+543 http cache abort-controller@https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz 0ms (cache hit)
+544 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-4.7.0.tgz 0ms (cache hit)
+545 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz 0ms (cache hit)
+546 http cache centra@https://registry.npmjs.org/centra/-/centra-2.7.0.tgz 0ms (cache hit)
+547 http cache xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.5.0.tgz 0ms (cache hit)
+548 http cache xml-parse-from-string@https://registry.npmjs.org/xml-parse-from-string/-/xml-parse-from-string-1.0.1.tgz 0ms (cache hit)
+549 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 0ms (cache hit)
+550 http cache xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 0ms (cache hit)
+551 http cache phin@https://registry.npmjs.org/phin/-/phin-3.7.1.tgz 0ms (cache hit)
+552 http cache xhr@https://registry.npmjs.org/xhr/-/xhr-2.6.0.tgz 0ms (cache hit)
+553 http cache parse-bmfont-binary@https://registry.npmjs.org/parse-bmfont-binary/-/parse-bmfont-binary-1.0.6.tgz 0ms (cache hit)
+554 http cache parse-bmfont-ascii@https://registry.npmjs.org/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.6.tgz 0ms (cache hit)
+555 http cache mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 0ms (cache hit)
+556 http cache parse-bmfont-xml@https://registry.npmjs.org/parse-bmfont-xml/-/parse-bmfont-xml-1.1.6.tgz 0ms (cache hit)
+557 http cache buffer-equal@https://registry.npmjs.org/buffer-equal/-/buffer-equal-0.0.1.tgz 0ms (cache hit)
+558 http cache whatwg-fetch@https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.20.tgz 0ms (cache hit)
+559 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 0ms (cache hit)
+560 http cache image-q@https://registry.npmjs.org/image-q/-/image-q-4.0.0.tgz 0ms (cache hit)
+561 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-16.9.1.tgz 0ms (cache hit)
+562 http cache token-types@https://registry.npmjs.org/token-types/-/token-types-4.2.1.tgz 0ms (cache hit)
+563 http cache strtok3@https://registry.npmjs.org/strtok3/-/strtok3-6.3.0.tgz 0ms (cache hit)
+564 http cache ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 0ms (cache hit)
+565 http cache readable-web-to-node-stream@https://registry.npmjs.org/readable-web-to-node-stream/-/readable-web-to-node-stream-3.0.4.tgz 0ms (cache hit)
+566 http cache base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 0ms (cache hit)
+567 http cache utif2@https://registry.npmjs.org/utif2/-/utif2-4.1.0.tgz 0ms (cache hit)
+568 http cache pngjs@https://registry.npmjs.org/pngjs/-/pngjs-6.0.0.tgz 0ms (cache hit)
+569 http cache jpeg-js@https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.4.4.tgz 0ms (cache hit)
+570 http cache omggif@https://registry.npmjs.org/omggif/-/omggif-1.0.10.tgz 0ms (cache hit)
+571 http cache gifwrap@https://registry.npmjs.org/gifwrap/-/gifwrap-0.10.1.tgz 0ms (cache hit)
+572 http cache bmp-js@https://registry.npmjs.org/bmp-js/-/bmp-js-0.1.0.tgz 0ms (cache hit)
+573 http cache @jimp/tiff@https://registry.npmjs.org/@jimp/tiff/-/tiff-0.22.12.tgz 0ms (cache hit)
+574 http cache @jimp/png@https://registry.npmjs.org/@jimp/png/-/png-0.22.12.tgz 0ms (cache hit)
+575 http cache @jimp/jpeg@https://registry.npmjs.org/@jimp/jpeg/-/jpeg-0.22.12.tgz 0ms (cache hit)
+576 http cache @jimp/gif@https://registry.npmjs.org/@jimp/gif/-/gif-0.22.12.tgz 0ms (cache hit)
+577 http cache @jimp/bmp@https://registry.npmjs.org/@jimp/bmp/-/bmp-0.22.12.tgz 0ms (cache hit)
+578 http cache load-bmfont@https://registry.npmjs.org/load-bmfont/-/load-bmfont-1.4.2.tgz 0ms (cache hit)
+579 http cache timm@https://registry.npmjs.org/timm/-/timm-1.7.1.tgz 0ms (cache hit)
+580 http cache @jimp/plugin-threshold@https://registry.npmjs.org/@jimp/plugin-threshold/-/plugin-threshold-0.22.12.tgz 0ms (cache hit)
+581 http cache @jimp/plugin-shadow@https://registry.npmjs.org/@jimp/plugin-shadow/-/plugin-shadow-0.22.12.tgz 0ms (cache hit)
+582 http cache @jimp/plugin-print@https://registry.npmjs.org/@jimp/plugin-print/-/plugin-print-0.22.12.tgz 0ms (cache hit)
+583 http cache @jimp/plugin-normalize@https://registry.npmjs.org/@jimp/plugin-normalize/-/plugin-normalize-0.22.12.tgz 0ms (cache hit)
+584 http cache @jimp/plugin-mask@https://registry.npmjs.org/@jimp/plugin-mask/-/plugin-mask-0.22.12.tgz 0ms (cache hit)
+585 http cache @jimp/plugin-invert@https://registry.npmjs.org/@jimp/plugin-invert/-/plugin-invert-0.22.12.tgz 0ms (cache hit)
+586 http cache @jimp/plugin-gaussian@https://registry.npmjs.org/@jimp/plugin-gaussian/-/plugin-gaussian-0.22.12.tgz 0ms (cache hit)
+587 http cache @jimp/plugin-rotate@https://registry.npmjs.org/@jimp/plugin-rotate/-/plugin-rotate-0.22.12.tgz 0ms (cache hit)
+588 http cache @jimp/plugin-flip@https://registry.npmjs.org/@jimp/plugin-flip/-/plugin-flip-0.22.12.tgz 0ms (cache hit)
+589 http cache @jimp/plugin-fisheye@https://registry.npmjs.org/@jimp/plugin-fisheye/-/plugin-fisheye-0.22.12.tgz 0ms (cache hit)
+590 http cache @jimp/plugin-dither@https://registry.npmjs.org/@jimp/plugin-dither/-/plugin-dither-0.22.12.tgz 0ms (cache hit)
+591 http cache @jimp/plugin-displace@https://registry.npmjs.org/@jimp/plugin-displace/-/plugin-displace-0.22.12.tgz 0ms (cache hit)
+592 http cache @jimp/plugin-crop@https://registry.npmjs.org/@jimp/plugin-crop/-/plugin-crop-0.22.12.tgz 0ms (cache hit)
+593 http cache @jimp/plugin-cover@https://registry.npmjs.org/@jimp/plugin-cover/-/plugin-cover-0.22.12.tgz 0ms (cache hit)
+594 http cache @jimp/plugin-resize@https://registry.npmjs.org/@jimp/plugin-resize/-/plugin-resize-0.22.12.tgz 0ms (cache hit)
+595 http cache @jimp/plugin-scale@https://registry.npmjs.org/@jimp/plugin-scale/-/plugin-scale-0.22.12.tgz 0ms (cache hit)
+596 http cache @jimp/plugin-contain@https://registry.npmjs.org/@jimp/plugin-contain/-/plugin-contain-0.22.12.tgz 1ms (cache hit)
+597 http cache @jimp/plugin-color@https://registry.npmjs.org/@jimp/plugin-color/-/plugin-color-0.22.12.tgz 0ms (cache hit)
+598 http cache @jimp/plugin-circle@https://registry.npmjs.org/@jimp/plugin-circle/-/plugin-circle-0.22.12.tgz 0ms (cache hit)
+599 http cache @jimp/plugin-blur@https://registry.npmjs.org/@jimp/plugin-blur/-/plugin-blur-0.22.12.tgz 0ms (cache hit)
+600 http cache @jimp/plugin-blit@https://registry.npmjs.org/@jimp/plugin-blit/-/plugin-blit-0.22.12.tgz 0ms (cache hit)
+601 http cache tinycolor2@https://registry.npmjs.org/tinycolor2/-/tinycolor2-1.6.0.tgz 0ms (cache hit)
+602 http cache pixelmatch@https://registry.npmjs.org/pixelmatch/-/pixelmatch-4.0.2.tgz 0ms (cache hit)
+603 http cache isomorphic-fetch@https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-3.0.0.tgz 0ms (cache hit)
+604 http cache file-type@https://registry.npmjs.org/file-type/-/file-type-16.5.4.tgz 0ms (cache hit)
+605 http cache exif-parser@https://registry.npmjs.org/exif-parser/-/exif-parser-0.1.12.tgz 0ms (cache hit)
+606 http cache buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 0ms (cache hit)
+607 http cache any-base@https://registry.npmjs.org/any-base/-/any-base-1.1.0.tgz 0ms (cache hit)
+608 http cache @jimp/utils@https://registry.npmjs.org/@jimp/utils/-/utils-0.22.12.tgz 0ms (cache hit)
+609 http cache @jimp/core@https://registry.npmjs.org/@jimp/core/-/core-0.22.12.tgz 0ms (cache hit)
+610 http cache regenerator-runtime@https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz 0ms (cache hit)
+611 http cache @jimp/types@https://registry.npmjs.org/@jimp/types/-/types-0.22.12.tgz 0ms (cache hit)
+612 http cache @jimp/plugins@https://registry.npmjs.org/@jimp/plugins/-/plugins-0.22.12.tgz 0ms (cache hit)
+613 http cache @jimp/custom@https://registry.npmjs.org/@jimp/custom/-/custom-0.22.12.tgz 0ms (cache hit)
+614 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+615 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 1ms (cache hit)
+616 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 0ms (cache hit)
+617 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+618 http cache jimp@https://registry.npmjs.org/jimp/-/jimp-0.22.12.tgz 0ms (cache hit)
+619 http cache chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 0ms (cache hit)
+620 http cache terimage@https://registry.npmjs.org/terimage/-/terimage-1.0.0.tgz 1ms (cache hit)
+621 http cache buffer@https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz 0ms (cache hit)
+622 http cache pngjs@https://registry.npmjs.org/pngjs/-/pngjs-3.4.0.tgz 0ms (cache hit)
+623 silly tarball no local data for xmlbuilder@https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz. Extracting by manifest.
+624 silly tarball no local data for sax@https://registry.npmjs.org/sax/-/sax-1.4.1.tgz. Extracting by manifest.
+625 silly tarball no local data for dom-walk@https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.2.tgz. Extracting by manifest.
+626 silly tarball no local data for min-document@https://registry.npmjs.org/min-document/-/min-document-2.19.0.tgz. Extracting by manifest.
+627 silly tarball no local data for parse-headers@https://registry.npmjs.org/parse-headers/-/parse-headers-2.0.6.tgz. Extracting by manifest.
+628 silly tarball no local data for is-function@https://registry.npmjs.org/is-function/-/is-function-1.0.2.tgz. Extracting by manifest.
+629 silly tarball no local data for global@https://registry.npmjs.org/global/-/global-4.4.0.tgz. Extracting by manifest.
+630 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz. Extracting by manifest.
+631 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz. Extracting by manifest.
+632 silly tarball no local data for pako@https://registry.npmjs.org/pako/-/pako-1.0.11.tgz. Extracting by manifest.
+633 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz. Extracting by manifest.
+634 silly tarball no local data for peek-readable@https://registry.npmjs.org/peek-readable/-/peek-readable-4.1.0.tgz. Extracting by manifest.
+635 silly tarball no local data for @tokenizer/token@https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz. Extracting by manifest.
+636 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz. Extracting by manifest.
+637 silly tarball no local data for event-target-shim@https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz. Extracting by manifest.
+638 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz. Extracting by manifest.
+639 silly tarball no local data for process@https://registry.npmjs.org/process/-/process-0.11.10.tgz. Extracting by manifest.
+640 silly tarball no local data for events@https://registry.npmjs.org/events/-/events-3.3.0.tgz. Extracting by manifest.
+641 silly tarball no local data for abort-controller@https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz. Extracting by manifest.
+642 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-4.7.0.tgz. Extracting by manifest.
+643 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz. Extracting by manifest.
+644 silly tarball no local data for centra@https://registry.npmjs.org/centra/-/centra-2.7.0.tgz. Extracting by manifest.
+645 silly tarball no local data for xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.5.0.tgz. Extracting by manifest.
+646 silly tarball no local data for xml-parse-from-string@https://registry.npmjs.org/xml-parse-from-string/-/xml-parse-from-string-1.0.1.tgz. Extracting by manifest.
+647 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz. Extracting by manifest.
+648 silly tarball no local data for xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz. Extracting by manifest.
+649 silly tarball no local data for phin@https://registry.npmjs.org/phin/-/phin-3.7.1.tgz. Extracting by manifest.
+650 silly tarball no local data for xhr@https://registry.npmjs.org/xhr/-/xhr-2.6.0.tgz. Extracting by manifest.
+651 silly tarball no local data for parse-bmfont-binary@https://registry.npmjs.org/parse-bmfont-binary/-/parse-bmfont-binary-1.0.6.tgz. Extracting by manifest.
+652 silly tarball no local data for parse-bmfont-ascii@https://registry.npmjs.org/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.6.tgz. Extracting by manifest.
+653 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+654 silly tarball no local data for parse-bmfont-xml@https://registry.npmjs.org/parse-bmfont-xml/-/parse-bmfont-xml-1.1.6.tgz. Extracting by manifest.
+655 silly tarball no local data for buffer-equal@https://registry.npmjs.org/buffer-equal/-/buffer-equal-0.0.1.tgz. Extracting by manifest.
+656 silly tarball no local data for whatwg-fetch@https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.20.tgz. Extracting by manifest.
+657 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz. Extracting by manifest.
+658 silly tarball no local data for image-q@https://registry.npmjs.org/image-q/-/image-q-4.0.0.tgz. Extracting by manifest.
+659 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-16.9.1.tgz. Extracting by manifest.
+660 silly tarball no local data for token-types@https://registry.npmjs.org/token-types/-/token-types-4.2.1.tgz. Extracting by manifest.
+661 silly tarball no local data for strtok3@https://registry.npmjs.org/strtok3/-/strtok3-6.3.0.tgz. Extracting by manifest.
+662 silly tarball no local data for ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz. Extracting by manifest.
+663 silly tarball no local data for readable-web-to-node-stream@https://registry.npmjs.org/readable-web-to-node-stream/-/readable-web-to-node-stream-3.0.4.tgz. Extracting by manifest.
+664 silly tarball no local data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz. Extracting by manifest.
+665 silly tarball no local data for utif2@https://registry.npmjs.org/utif2/-/utif2-4.1.0.tgz. Extracting by manifest.
+666 silly tarball no local data for pngjs@https://registry.npmjs.org/pngjs/-/pngjs-6.0.0.tgz. Extracting by manifest.
+667 silly tarball no local data for jpeg-js@https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.4.4.tgz. Extracting by manifest.
+668 silly tarball no local data for omggif@https://registry.npmjs.org/omggif/-/omggif-1.0.10.tgz. Extracting by manifest.
+669 silly tarball no local data for gifwrap@https://registry.npmjs.org/gifwrap/-/gifwrap-0.10.1.tgz. Extracting by manifest.
+670 silly tarball no local data for bmp-js@https://registry.npmjs.org/bmp-js/-/bmp-js-0.1.0.tgz. Extracting by manifest.
+671 silly tarball no local data for @jimp/tiff@https://registry.npmjs.org/@jimp/tiff/-/tiff-0.22.12.tgz. Extracting by manifest.
+672 silly tarball no local data for @jimp/png@https://registry.npmjs.org/@jimp/png/-/png-0.22.12.tgz. Extracting by manifest.
+673 silly tarball no local data for @jimp/jpeg@https://registry.npmjs.org/@jimp/jpeg/-/jpeg-0.22.12.tgz. Extracting by manifest.
+674 silly tarball no local data for @jimp/gif@https://registry.npmjs.org/@jimp/gif/-/gif-0.22.12.tgz. Extracting by manifest.
+675 silly tarball no local data for @jimp/bmp@https://registry.npmjs.org/@jimp/bmp/-/bmp-0.22.12.tgz. Extracting by manifest.
+676 silly tarball no local data for load-bmfont@https://registry.npmjs.org/load-bmfont/-/load-bmfont-1.4.2.tgz. Extracting by manifest.
+677 silly tarball no local data for timm@https://registry.npmjs.org/timm/-/timm-1.7.1.tgz. Extracting by manifest.
+678 silly tarball no local data for @jimp/plugin-threshold@https://registry.npmjs.org/@jimp/plugin-threshold/-/plugin-threshold-0.22.12.tgz. Extracting by manifest.
+679 silly tarball no local data for @jimp/plugin-shadow@https://registry.npmjs.org/@jimp/plugin-shadow/-/plugin-shadow-0.22.12.tgz. Extracting by manifest.
+680 silly tarball no local data for @jimp/plugin-print@https://registry.npmjs.org/@jimp/plugin-print/-/plugin-print-0.22.12.tgz. Extracting by manifest.
+681 silly tarball no local data for @jimp/plugin-normalize@https://registry.npmjs.org/@jimp/plugin-normalize/-/plugin-normalize-0.22.12.tgz. Extracting by manifest.
+682 silly tarball no local data for @jimp/plugin-mask@https://registry.npmjs.org/@jimp/plugin-mask/-/plugin-mask-0.22.12.tgz. Extracting by manifest.
+683 silly tarball no local data for @jimp/plugin-invert@https://registry.npmjs.org/@jimp/plugin-invert/-/plugin-invert-0.22.12.tgz. Extracting by manifest.
+684 silly tarball no local data for @jimp/plugin-gaussian@https://registry.npmjs.org/@jimp/plugin-gaussian/-/plugin-gaussian-0.22.12.tgz. Extracting by manifest.
+685 silly tarball no local data for @jimp/plugin-rotate@https://registry.npmjs.org/@jimp/plugin-rotate/-/plugin-rotate-0.22.12.tgz. Extracting by manifest.
+686 silly tarball no local data for @jimp/plugin-flip@https://registry.npmjs.org/@jimp/plugin-flip/-/plugin-flip-0.22.12.tgz. Extracting by manifest.
+687 silly tarball no local data for @jimp/plugin-fisheye@https://registry.npmjs.org/@jimp/plugin-fisheye/-/plugin-fisheye-0.22.12.tgz. Extracting by manifest.
+688 silly tarball no local data for @jimp/plugin-dither@https://registry.npmjs.org/@jimp/plugin-dither/-/plugin-dither-0.22.12.tgz. Extracting by manifest.
+689 silly tarball no local data for @jimp/plugin-displace@https://registry.npmjs.org/@jimp/plugin-displace/-/plugin-displace-0.22.12.tgz. Extracting by manifest.
+690 silly tarball no local data for @jimp/plugin-crop@https://registry.npmjs.org/@jimp/plugin-crop/-/plugin-crop-0.22.12.tgz. Extracting by manifest.
+691 silly tarball no local data for @jimp/plugin-cover@https://registry.npmjs.org/@jimp/plugin-cover/-/plugin-cover-0.22.12.tgz. Extracting by manifest.
+692 silly tarball no local data for @jimp/plugin-resize@https://registry.npmjs.org/@jimp/plugin-resize/-/plugin-resize-0.22.12.tgz. Extracting by manifest.
+693 silly tarball no local data for @jimp/plugin-scale@https://registry.npmjs.org/@jimp/plugin-scale/-/plugin-scale-0.22.12.tgz. Extracting by manifest.
+694 silly tarball no local data for @jimp/plugin-contain@https://registry.npmjs.org/@jimp/plugin-contain/-/plugin-contain-0.22.12.tgz. Extracting by manifest.
+695 silly tarball no local data for @jimp/plugin-color@https://registry.npmjs.org/@jimp/plugin-color/-/plugin-color-0.22.12.tgz. Extracting by manifest.
+696 silly tarball no local data for @jimp/plugin-circle@https://registry.npmjs.org/@jimp/plugin-circle/-/plugin-circle-0.22.12.tgz. Extracting by manifest.
+697 silly tarball no local data for @jimp/plugin-blur@https://registry.npmjs.org/@jimp/plugin-blur/-/plugin-blur-0.22.12.tgz. Extracting by manifest.
+698 silly tarball no local data for @jimp/plugin-blit@https://registry.npmjs.org/@jimp/plugin-blit/-/plugin-blit-0.22.12.tgz. Extracting by manifest.
+699 silly tarball no local data for tinycolor2@https://registry.npmjs.org/tinycolor2/-/tinycolor2-1.6.0.tgz. Extracting by manifest.
+700 silly tarball no local data for pixelmatch@https://registry.npmjs.org/pixelmatch/-/pixelmatch-4.0.2.tgz. Extracting by manifest.
+701 silly tarball no local data for isomorphic-fetch@https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-3.0.0.tgz. Extracting by manifest.
+702 silly tarball no local data for file-type@https://registry.npmjs.org/file-type/-/file-type-16.5.4.tgz. Extracting by manifest.
+703 silly tarball no local data for exif-parser@https://registry.npmjs.org/exif-parser/-/exif-parser-0.1.12.tgz. Extracting by manifest.
+704 silly tarball no local data for buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz. Extracting by manifest.
+705 silly tarball no local data for any-base@https://registry.npmjs.org/any-base/-/any-base-1.1.0.tgz. Extracting by manifest.
+706 silly tarball no local data for @jimp/utils@https://registry.npmjs.org/@jimp/utils/-/utils-0.22.12.tgz. Extracting by manifest.
+707 silly tarball no local data for @jimp/core@https://registry.npmjs.org/@jimp/core/-/core-0.22.12.tgz. Extracting by manifest.
+708 silly tarball no local data for regenerator-runtime@https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz. Extracting by manifest.
+709 silly tarball no local data for @jimp/types@https://registry.npmjs.org/@jimp/types/-/types-0.22.12.tgz. Extracting by manifest.
+710 silly tarball no local data for @jimp/plugins@https://registry.npmjs.org/@jimp/plugins/-/plugins-0.22.12.tgz. Extracting by manifest.
+711 silly tarball no local data for @jimp/custom@https://registry.npmjs.org/@jimp/custom/-/custom-0.22.12.tgz. Extracting by manifest.
+712 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz. Extracting by manifest.
+713 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz. Extracting by manifest.
+714 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz. Extracting by manifest.
+715 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz. Extracting by manifest.
+716 silly tarball no local data for jimp@https://registry.npmjs.org/jimp/-/jimp-0.22.12.tgz. Extracting by manifest.
+717 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz. Extracting by manifest.
+718 silly tarball no local data for terimage@https://registry.npmjs.org/terimage/-/terimage-1.0.0.tgz. Extracting by manifest.
+719 silly tarball no local data for buffer@https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz. Extracting by manifest.
+720 silly tarball no local data for pngjs@https://registry.npmjs.org/pngjs/-/pngjs-3.4.0.tgz. Extracting by manifest.
+721 http fetch GET 200 https://registry.npmjs.org/parse-headers/-/parse-headers-2.0.6.tgz 1184ms (cache miss)
+722 http fetch GET 200 https://registry.npmjs.org/is-function/-/is-function-1.0.2.tgz 1185ms (cache miss)
+723 http fetch GET 200 https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.2.tgz 1192ms (cache miss)
+724 http fetch GET 200 https://registry.npmjs.org/min-document/-/min-document-2.19.0.tgz 1194ms (cache miss)
+725 http fetch GET 200 https://registry.npmjs.org/process/-/process-0.11.10.tgz 1204ms (cache miss)
+726 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz 1207ms (cache miss)
+727 http fetch GET 200 https://registry.npmjs.org/sax/-/sax-1.4.1.tgz 1260ms (cache miss)
+728 http fetch GET 200 https://registry.npmjs.org/global/-/global-4.4.0.tgz 1253ms (cache miss)
+729 http fetch GET 200 https://registry.npmjs.org/xml2js/-/xml2js-0.5.0.tgz 1259ms (cache miss)
+730 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 1285ms (cache miss)
+731 http fetch GET 200 https://registry.npmjs.org/centra/-/centra-2.7.0.tgz 1312ms (cache miss)
+732 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz 1315ms (cache miss)
+733 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-binary/-/parse-bmfont-binary-1.0.6.tgz 1303ms (cache miss)
+734 http fetch GET 200 https://registry.npmjs.org/phin/-/phin-3.7.1.tgz 1307ms (cache miss)
+735 http fetch GET 200 https://registry.npmjs.org/xml-parse-from-string/-/xml-parse-from-string-1.0.1.tgz 1329ms (cache miss)
+736 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 1329ms (cache miss)
+737 http fetch GET 200 https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz 1350ms (cache miss)
+738 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.6.tgz 1345ms (cache miss)
+739 http fetch GET 200 https://registry.npmjs.org/xhr/-/xhr-2.6.0.tgz 1349ms (cache miss)
+740 http fetch GET 200 https://registry.npmjs.org/buffer-equal/-/buffer-equal-0.0.1.tgz 1342ms (cache miss)
+741 http fetch GET 200 https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.20.tgz 1350ms (cache miss)
+742 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 1359ms (cache miss)
+743 http fetch GET 200 https://registry.npmjs.org/parse-bmfont-xml/-/parse-bmfont-xml-1.1.6.tgz 1358ms (cache miss)
+744 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 1422ms (cache miss)
+745 http fetch GET 200 https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz 1426ms (cache miss)
+746 http fetch GET 200 https://registry.npmjs.org/readable-web-to-node-stream/-/readable-web-to-node-stream-3.0.4.tgz 1439ms (cache miss)
+747 http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 1438ms (cache miss)
+748 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 1465ms (cache miss)
+749 http fetch GET 200 https://registry.npmjs.org/omggif/-/omggif-1.0.10.tgz 1453ms (cache miss)
+750 http fetch GET 200 https://registry.npmjs.org/utif2/-/utif2-4.1.0.tgz 1467ms (cache miss)
+751 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 1525ms (cache miss)
+752 http fetch GET 200 https://registry.npmjs.org/token-types/-/token-types-4.2.1.tgz 1497ms (cache miss)
+753 http fetch GET 200 https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.4.4.tgz 1487ms (cache miss)
+754 http fetch GET 200 https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz 1567ms (cache miss)
+755 http fetch GET 200 https://registry.npmjs.org/strtok3/-/strtok3-6.3.0.tgz 1601ms (cache miss)
+756 http fetch GET 200 https://registry.npmjs.org/peek-readable/-/peek-readable-4.1.0.tgz 1680ms (cache miss)
+757 http fetch GET 200 https://registry.npmjs.org/events/-/events-3.3.0.tgz 1682ms (cache miss)
+758 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 1709ms (cache miss)
+759 http fetch GET 200 https://registry.npmjs.org/load-bmfont/-/load-bmfont-1.4.2.tgz 1675ms (cache miss)
+760 http fetch GET 200 https://registry.npmjs.org/timm/-/timm-1.7.1.tgz 1740ms (cache miss)
+761 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-invert/-/plugin-invert-0.22.12.tgz 1768ms (cache miss)
+762 http fetch GET 200 https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz 1972ms (cache miss)
+763 http fetch GET 200 https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz 1975ms (cache miss)
+764 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-mask/-/plugin-mask-0.22.12.tgz 1909ms (cache miss)
+765 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-gaussian/-/plugin-gaussian-0.22.12.tgz 1907ms (cache miss)
+766 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 2019ms (cache miss)
+767 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-4.7.0.tgz 2014ms (cache miss)
+768 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-flip/-/plugin-flip-0.22.12.tgz 2063ms (cache miss)
+769 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-normalize/-/plugin-normalize-0.22.12.tgz 2093ms (cache miss)
+770 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-rotate/-/plugin-rotate-0.22.12.tgz 2092ms (cache miss)
+771 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-fisheye/-/plugin-fisheye-0.22.12.tgz 2094ms (cache miss)
+772 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-displace/-/plugin-displace-0.22.12.tgz 2143ms (cache miss)
+773 http fetch GET 200 https://registry.npmjs.org/bmp-js/-/bmp-js-0.1.0.tgz 2224ms (cache miss)
+774 http fetch GET 200 https://registry.npmjs.org/@jimp/jpeg/-/jpeg-0.22.12.tgz 2248ms (cache miss)
+775 http fetch GET 200 https://registry.npmjs.org/pngjs/-/pngjs-6.0.0.tgz 2271ms (cache miss)
+776 http fetch GET 200 https://registry.npmjs.org/@jimp/gif/-/gif-0.22.12.tgz 2312ms (cache miss)
+777 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-shadow/-/plugin-shadow-0.22.12.tgz 2349ms (cache miss)
+778 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-contain/-/plugin-contain-0.22.12.tgz 2351ms (cache miss)
+779 http fetch GET 200 https://registry.npmjs.org/image-q/-/image-q-4.0.0.tgz 2582ms (cache miss)
+780 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-circle/-/plugin-circle-0.22.12.tgz 2603ms (cache miss)
+781 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-color/-/plugin-color-0.22.12.tgz 2695ms (cache miss)
+782 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-cover/-/plugin-cover-0.22.12.tgz 2822ms (cache miss)
+783 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-blur/-/plugin-blur-0.22.12.tgz 2847ms (cache miss)
+784 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-crop/-/plugin-crop-0.22.12.tgz 2867ms (cache miss)
+785 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-blit/-/plugin-blit-0.22.12.tgz 3800ms (cache miss)
+786 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-resize/-/plugin-resize-0.22.12.tgz 3836ms (cache miss)
+787 http fetch GET 200 https://registry.npmjs.org/pixelmatch/-/pixelmatch-4.0.2.tgz 3849ms (cache miss)
+788 http fetch GET 200 https://registry.npmjs.org/file-type/-/file-type-16.5.4.tgz 3871ms (cache miss)
+789 http fetch GET 200 https://registry.npmjs.org/exif-parser/-/exif-parser-0.1.12.tgz 4140ms (cache miss)
+790 http fetch GET 200 https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-3.0.0.tgz 4150ms (cache miss)
+791 http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 4148ms (cache miss)
+792 http fetch GET 200 https://registry.npmjs.org/any-base/-/any-base-1.1.0.tgz 4148ms (cache miss)
+793 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-16.9.1.tgz 4239ms (cache miss)
+794 http fetch GET 200 https://registry.npmjs.org/@jimp/utils/-/utils-0.22.12.tgz 4264ms (cache miss)
+795 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-scale/-/plugin-scale-0.22.12.tgz 4295ms (cache miss)
+796 http fetch GET 200 https://registry.npmjs.org/tinycolor2/-/tinycolor2-1.6.0.tgz 4286ms (cache miss)
+797 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-dither/-/plugin-dither-0.22.12.tgz 4417ms (cache miss)
+798 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 4420ms (cache miss)
+799 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz 4432ms (cache miss)
+800 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 4426ms (cache miss)
+801 http fetch GET 200 https://registry.npmjs.org/@jimp/custom/-/custom-0.22.12.tgz 4432ms (cache miss)
+802 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 4569ms (cache miss)
+803 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 4571ms (cache miss)
+804 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 4635ms (cache miss)
+805 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-threshold/-/plugin-threshold-0.22.12.tgz 4812ms (cache miss)
+806 http fetch GET 200 https://registry.npmjs.org/@jimp/types/-/types-0.22.12.tgz 5038ms (cache miss)
+807 http fetch GET 200 https://registry.npmjs.org/@jimp/plugins/-/plugins-0.22.12.tgz 5140ms (cache miss)
+808 http fetch GET 200 https://registry.npmjs.org/@jimp/tiff/-/tiff-0.22.12.tgz 5225ms (cache miss)
+809 http fetch GET 200 https://registry.npmjs.org/pako/-/pako-1.0.11.tgz 5605ms (cache miss)
+810 http fetch GET 200 https://registry.npmjs.org/@jimp/bmp/-/bmp-0.22.12.tgz 5607ms (cache miss)
+811 http fetch GET 200 https://registry.npmjs.org/@jimp/core/-/core-0.22.12.tgz 5997ms (cache miss)
+812 http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz 5980ms (cache miss)
+813 http fetch GET 200 https://registry.npmjs.org/jimp/-/jimp-0.22.12.tgz 5987ms (cache miss)
+814 http fetch GET 200 https://registry.npmjs.org/@jimp/png/-/png-0.22.12.tgz 6783ms (cache miss)
+815 http fetch GET 200 https://registry.npmjs.org/pngjs/-/pngjs-3.4.0.tgz 6695ms (cache miss)
+816 http fetch GET 200 https://registry.npmjs.org/gifwrap/-/gifwrap-0.10.1.tgz 7163ms (cache miss)
+817 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-print/-/plugin-print-0.22.12.tgz 8458ms (cache miss)
+818 http fetch GET 200 https://registry.npmjs.org/terimage/-/terimage-1.0.0.tgz 10451ms (cache miss)
+819 silly ADD node_modules/xmlbuilder
+820 silly ADD node_modules/sax
+821 silly ADD node_modules/dom-walk
+822 silly ADD node_modules/min-document
+823 silly ADD node_modules/parse-headers
+824 silly ADD node_modules/is-function
+825 silly ADD node_modules/global
+826 silly ADD node_modules/webidl-conversions
+827 silly ADD node_modules/tr46
+828 silly ADD node_modules/pako
+829 silly ADD node_modules/has-flag
+830 silly ADD node_modules/peek-readable
+831 silly ADD node_modules/@tokenizer/token
+832 silly ADD node_modules/safe-buffer
+833 silly ADD node_modules/event-target-shim
+834 silly ADD node_modules/string_decoder
+835 silly ADD node_modules/process
+836 silly ADD node_modules/events
+837 silly ADD node_modules/abort-controller
+838 silly ADD node_modules/readable-stream
+839 silly ADD node_modules/readable-stream/node_modules/buffer
+840 silly ADD node_modules/follow-redirects
+841 silly ADD node_modules/centra
+842 silly ADD node_modules/xml2js
+843 silly ADD node_modules/xml-parse-from-string
+844 silly ADD node_modules/whatwg-url
+845 silly ADD node_modules/xtend
+846 silly ADD node_modules/xhr
+847 silly ADD node_modules/phin
+848 silly ADD node_modules/parse-bmfont-xml
+849 silly ADD node_modules/parse-bmfont-binary
+850 silly ADD node_modules/parse-bmfont-ascii
+851 silly ADD node_modules/mime
+852 silly ADD node_modules/buffer-equal
+853 silly ADD node_modules/whatwg-fetch
+854 silly ADD node_modules/node-fetch
+855 silly ADD node_modules/@types/node
+856 silly ADD node_modules/image-q
+857 silly ADD node_modules/token-types
+858 silly ADD node_modules/strtok3
+859 silly ADD node_modules/readable-web-to-node-stream
+860 silly ADD node_modules/ieee754
+861 silly ADD node_modules/base64-js
+862 silly ADD node_modules/utif2
+863 silly ADD node_modules/pngjs
+864 silly ADD node_modules/jpeg-js
+865 silly ADD node_modules/omggif
+866 silly ADD node_modules/gifwrap
+867 silly ADD node_modules/bmp-js
+868 silly ADD node_modules/@jimp/tiff
+869 silly ADD node_modules/@jimp/png
+870 silly ADD node_modules/@jimp/jpeg
+871 silly ADD node_modules/@jimp/gif
+872 silly ADD node_modules/@jimp/bmp
+873 silly ADD node_modules/load-bmfont
+874 silly ADD node_modules/timm
+875 silly ADD node_modules/@jimp/plugin-threshold
+876 silly ADD node_modules/@jimp/plugin-shadow
+877 silly ADD node_modules/@jimp/plugin-print
+878 silly ADD node_modules/@jimp/plugin-normalize
+879 silly ADD node_modules/@jimp/plugin-mask
+880 silly ADD node_modules/@jimp/plugin-invert
+881 silly ADD node_modules/@jimp/plugin-gaussian
+882 silly ADD node_modules/@jimp/plugin-rotate
+883 silly ADD node_modules/@jimp/plugin-flip
+884 silly ADD node_modules/@jimp/plugin-fisheye
+885 silly ADD node_modules/@jimp/plugin-dither
+886 silly ADD node_modules/@jimp/plugin-displace
+887 silly ADD node_modules/@jimp/plugin-crop
+888 silly ADD node_modules/@jimp/plugin-cover
+889 silly ADD node_modules/@jimp/plugin-resize
+890 silly ADD node_modules/@jimp/plugin-scale
+891 silly ADD node_modules/@jimp/plugin-contain
+892 silly ADD node_modules/@jimp/plugin-color
+893 silly ADD node_modules/@jimp/plugin-circle
+894 silly ADD node_modules/@jimp/plugin-blur
+895 silly ADD node_modules/@jimp/plugin-blit
+896 silly ADD node_modules/tinycolor2
+897 silly ADD node_modules/pixelmatch
+898 silly ADD node_modules/pixelmatch/node_modules/pngjs
+899 silly ADD node_modules/isomorphic-fetch
+900 silly ADD node_modules/file-type
+901 silly ADD node_modules/exif-parser
+902 silly ADD node_modules/buffer
+903 silly ADD node_modules/any-base
+904 silly ADD node_modules/@jimp/utils
+905 silly ADD node_modules/@jimp/core
+906 silly ADD node_modules/regenerator-runtime
+907 silly ADD node_modules/@jimp/types
+908 silly ADD node_modules/@jimp/plugins
+909 silly ADD node_modules/@jimp/custom
+910 silly ADD node_modules/color-name
+911 silly ADD node_modules/color-convert
+912 silly ADD node_modules/supports-color
+913 silly ADD node_modules/ansi-styles
+914 silly ADD node_modules/jimp
+915 silly ADD node_modules/chalk
+916 silly ADD node_modules/terimage
+917 verbose cwd /data/data/com.termux/files/home/dotfiles/.config/fastfetch
+918 verbose os Linux 4.14.186-27270957
+919 verbose node v22.14.0
+920 verbose npm  v10.9.2
+921 verbose exit 0
+922 info ok

@@ -1,0 +1,44 @@
+{
+    "injected_packages": {},
+    "main_package": {
+        "app_paths": [
+            {
+                "__Path__": "/data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs/termvisage/bin/termvisage",
+                "__type__": "Path"
+            }
+        ],
+        "app_paths_of_dependencies": {
+            "charset-normalizer": [
+                {
+                    "__Path__": "/data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs/termvisage/bin/normalizer",
+                    "__type__": "Path"
+                }
+            ]
+        },
+        "apps": [
+            "termvisage"
+        ],
+        "apps_of_dependencies": [
+            "normalizer"
+        ],
+        "include_apps": true,
+        "include_dependencies": false,
+        "man_pages": [],
+        "man_pages_of_dependencies": [],
+        "man_paths": [],
+        "man_paths_of_dependencies": {},
+        "package": "termvisage",
+        "package_or_url": "termvisage",
+        "package_version": "0.2.0",
+        "pinned": false,
+        "pip_args": [],
+        "suffix": ""
+    },
+    "pipx_metadata_version": "0.5",
+    "python_version": "Python 3.12.9",
+    "source_interpreter": {
+        "__Path__": "/data/data/com.termux/files/usr/bin/python3.12",
+        "__type__": "Path"
+    },
+    "venv_args": []
+}

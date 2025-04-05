@@ -1,0 +1,13 @@
+   599.4ms (setup:1108): 2025-03-26 07:37:21
+   599.8ms (setup:1109): /data/data/com.termux/files/home/.local/lib/python3.12/site-packages/pipx/__main__.py ensurepath
+   599.9ms (setup:1110): pipx version is 1.7.1
+   600.0ms (setup:1111): Default python interpreter is '/data/data/com.termux/files/usr/bin/python3.12'
+   600.6ms (mkdir:76): creating directory /data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs
+   601.8ms (mkdir:76): creating directory /data/data/com.termux/files/home/.cache/pipx
+   602.3ms (mkdir:76): creating directory /data/data/com.termux/files/home/dotfiles/.local/share/pipx/py
+   602.9ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   603.6ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   609.9ms (ensure_pipx_paths:134): ⚠️  All pipx binary directories have been appended to PATH. If you are sure you
+want to proceed, try again with the '--force' flag.
+
+   610.3ms (cli:1187): pipx finished.

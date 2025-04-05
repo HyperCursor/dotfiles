@@ -1,0 +1,43 @@
+   445.2ms (setup:1108): 2025-03-26 07:38:11
+   445.7ms (setup:1109): /data/data/com.termux/files/home/.local/bin/pipx install termvisage
+   445.9ms (setup:1110): pipx version is 1.7.1
+   446.0ms (setup:1111): Default python interpreter is '/data/data/com.termux/files/usr/bin/python3.12'
+   451.1ms (package_name_from_spec:378): Determined package name: termvisage
+   451.3ms (package_name_from_spec:379): Package name determined in 0.0s
+   452.2ms (create_venv:164): Creating virtual environment
+   454.7ms (run_subprocess:175): running /data/data/com.termux/files/usr/bin/python3.12 -m venv --without-pip /data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs/termvisage
+   653.7ms (run_subprocess:195): stdout:
+   653.9ms (run_subprocess:197): stderr:
+   654.0ms (run_subprocess:198): returncode: 0
+   660.0ms (run_subprocess:175): running /data/data/com.termux/files/usr/bin/python3.12 -m venv --clear /data/data/com.termux/files/home/dotfiles/.local/share/pipx/shared
+ 10248.8ms (run_subprocess:195): stdout:
+ 10249.2ms (run_subprocess:197): stderr:
+ 10249.5ms (run_subprocess:198): returncode: 0
+ 10256.2ms (run_subprocess:175): running <checking pip's availability>
+ 10316.1ms (run_subprocess:195): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7c5ab78b90>, origin='/data/data/com.termux/files/home/dotfiles/.local/share/pipx/shared/lib/python3.12/site-packages/pip/__init__.py', submodule_search_locations=['/data/data/com.termux/files/home/dotfiles/.local/share/pipx/shared/lib/python3.12/site-packages/pip'])
+ 10316.9ms (run_subprocess:198): returncode: 0
+ 10326.2ms (upgrade:119): Upgrading shared libraries in /data/data/com.termux/files/home/dotfiles/.local/share/pipx/shared
+ 10333.2ms (run_subprocess:175): running /data/data/com.termux/files/home/dotfiles/.local/share/pipx/shared/bin/python -m pip --no-input --disable-pip-version-check install --force-reinstall -q --upgrade pip >= 23.1
+ 17678.3ms (run_subprocess:195): stdout:
+ 17678.6ms (run_subprocess:197): stderr:
+ 17678.7ms (run_subprocess:198): returncode: 0
+ 17682.1ms (run_subprocess:175): running /data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs/termvisage/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+ 17752.3ms (run_subprocess:195): stdout: /data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs/termvisage/lib/python3.12/site-packages
+ 17752.5ms (run_subprocess:198): returncode: 0
+ 17754.2ms (run_subprocess:175): running /data/data/com.termux/files/home/dotfiles/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+ 17835.1ms (run_subprocess:195): stdout: /data/data/com.termux/files/home/dotfiles/.local/share/pipx/shared/lib/python3.12/site-packages
+ 17835.4ms (run_subprocess:198): returncode: 0
+ 17838.6ms (run_subprocess:175): running /data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs/termvisage/bin/python --version
+ 17853.7ms (run_subprocess:195): stdout: Python 3.12.9
+ 17854.1ms (run_subprocess:197): stderr:
+ 17854.3ms (run_subprocess:198): returncode: 0
+ 17855.5ms (_parsed_package_to_package_or_url:139): cleaned package spec: termvisage
+ 17855.8ms (install_package:247): Installing termvisage
+ 17857.4ms (run_subprocess:175): running /data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs/termvisage/bin/python -m pip --no-input install termvisage
+ 29505.7ms (run_subprocess:198): returncode: 0
+ 29508.2ms (run_subprocess:175): running <fetch_info_in_venv commands>
+ 29643.8ms (run_subprocess:195): stdout: {"sys_path": ["/data/data/com.termux/files/usr/lib/python312.zip", "/data/data/com.termux/files/usr/lib/python3.12", "/data/data/com.termux/files/usr/lib/python3.12/lib-dynload", "/data/data/com.termux/files/home/dotfiles/.local/share/pipx/venvs/termvisage/lib/python3.12/site-packages", "/data/data/com.termux/files/home/dotfiles/.local/share/pipx/shared/lib/python3.12/site-packages"], "python_version": "3.12.9", "environment": {"implementation_name": "cpython", "implementation_version": "3.12.9", "os_name": "posix", "platform_machine": "aarch64", "platform_release": "4.14.186-27270957", "platform_system": "Linux", "platform_version": "#1 SMP PREEMPT Tue Dec 24 15:35:39 KST 2024", "python_full_version": "3.12.9", "platform_python_implementation": "CPython", "python_version": "3.12", "sys_platform": "linux"}}
+ 29644.5ms (run_subprocess:198): returncode: 0
+ 29892.2ms (get_venv_metadata_for_package:351): get_venv_metadata_for_package: 385ms
+ 29892.8ms (_parsed_package_to_package_or_url:139): cleaned package spec: termvisage
+ 29908.7ms (cli:1187): pipx finished.

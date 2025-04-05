@@ -1,3 +1,5 @@
+[ -z "$TMUX" ] && tmux
+fastfetch
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -40,7 +42,6 @@ zstyle ':omz:update' frequency 7
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
-
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
 
@@ -60,6 +61,7 @@ zstyle ':omz:update' frequency 7
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
+
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -118,9 +120,7 @@ fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-fastfetch
+
 eval "$(zoxide init --cmd cd zsh)"
 alias ls='eza --icons=always'
 export PATH="$HOME/.local/bin:$PATH"
-# Start tmux if not already inside it
-[ -z "$TMUX" ] && tmux
